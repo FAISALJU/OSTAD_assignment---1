@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-style.css">
+</head>
+<body class="bg-light">
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary shadow-sm">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img class="nav-logo img-fluid" src="images/logo.png" alt="Logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- hero section -->
+    <div class="container-fluid hero-background">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+                <h1 class="text-white hero-title">Mern Stack Web Development</h1>
+                <p class="text-white">A Complete Web Solutution for your Business</p>
+                <button type="button" class="btn btn-success btn-lg py-1">Login</button>
+            </div>
+        </div>
+    </div>
+
+    <br> <br> <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-6 col-sm-12 col-12 p-3">      
+                <div class="banner-container">
+                    <div class="portfolio-intro">
+                        <h2 class="intro">Hey, I am</h2>
+                        <h1 class="name">Khawaja Mohammad Faisal</h1>
+                        <h4>Your Trusted Professional Web Developer</h4>
+                        <button class="resume">Resume</button>
+                    </div>
+                    <div class="my-picture">
+                            <img src="images/Profile-image-removebg.png" alt="">     
+                    </div>
+                </div>
+                <div>
+                    <div id="ageChecker">
+                        <h1 class="text-center">Lets verify your age whether you are Child or Adult</h1>
+                        <form>  
+                            <label for="ageNumber">Enter your age : </label>
+                            <input type="number" id="ageInput"> <br>
+                            <button type="submit" onclick="checkAge()">Check</button> <br>
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cards -->
+    <div class="container">
+        <h3 class="text-center text-bg-dark">Other Courses</h3>
+        <p class="text-center">Explore More and Learn </p>
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 p-3">
+                <div class="card p-3 text-center shadow h-100">
+                    <img class="w-100 img-fluid" src="images/wd-5.jpeg" alt="">
+                    <p>Rest API Development</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 p-3">
+                <div class="card p-3 text-center shadow">
+                    <img class="w-100 img-fluid" src="images/wd-4.jpeg" 3lt="">
+                    <p>Rest API Development</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 p-3">
+                <div class="card p-3 text-center shadow">
+                    <img class="w-100 img-fluid" src="images/wd-3.jpeg" 3lt="">
+                    <p>Rest API Development</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 p-3">
+                <div class="card p-3 text-center shadow">
+                    <img class="w-100 img-fluid" src="images/wd-5.jpeg" 3lt="">
+                    <p>Rest API Development</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 p-3">
+                <div class="card p-3 text-center shadow">
+                    <img class="w-100 img-fluid" src="images/wd-6.jpeg" 3lt="">
+                    <p>Rest API Development</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 p-3">
+                <div class="card p-3 text-center shadow">
+                    <img class="w-100 img-fluid" src="images/wd-7.jpeg" 3lt="">
+                    <p>Rest API Development</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 p-3">
+                <div class="card p-3 text-center shadow">
+                    <img class="w-100 img-fluid" src="images/wd-8.jpeg" 3lt="">
+                    <p>Rest API Development</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Card with Title section -->
+    <div class="container text-center p-5 mb-5">
+        <h1 class="mb-5 text-bg-info">Course Details</h1>
+        <div class="row ml-2 mb-4">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/wd-3.jpeg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">An item</li>
+                      <li class="list-group-item">A second item</li>
+                      <li class="list-group-item">A third item</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/wd-3.jpeg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">An item</li>
+                      <li class="list-group-item">A second item</li>
+                      <li class="list-group-item">A third item</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/wd-3.jpeg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">An item</li>
+                      <li class="list-group-item">A second item</li>
+                      <li class="list-group-item">A third item</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/wd-3.jpeg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">An item</li>
+                      <li class="list-group-item">A second item</li>
+                      <li class="list-group-item">A third item</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Enroll Section -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 w-50">
+                            <div class="card p-2">
+                                <h4>Web Design </h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, dolore.</p>
+                                <img src="./images/wd-9.jpeg" alt="" srcset="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 w-50">
+                            <div class="card p-2">
+                                <h4>Web Ddevelopment </h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, nesciunt.</p>
+                                <img src="./images/wd-4.jpeg" alt="" srcset="" class="img-fluid">
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos consequatur eaque incidunt cumque adipisci tempora possimus natus ut assumenda sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, blanditiis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, impedit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, quia. Quidem quae aut minus sapiente delectus rerum modi quam doloribus. </p>
+                    </div>
+                    <div class="container enrolled">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-12 p-2 m-1 text-center bg-info enrollment">
+                                <h2>531</h2>
+                                <p>Class Uploaded</p>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-12 p-2 m-1 text-center bg-success enrollment">
+                                <h2>150</h2>
+                                <p>Already Enrolled</p>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-12 p-2 m-1 text-center bg-secondary enrollment">
+                                <h2>531</h2>
+                                <p>Class Uploaded</p>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
+                <div class="card shadow-sm p-2">
+                    <img src="./images/wd1.jpeg" alt="" srcset="" class="img-fluid">
+                    <button class="btn btn-primary w-50 signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Other Courses -->
+    <div class="container">
+        <h4 class="text-center">Other Courses</h4>
+        <p class="text-center">Explore More and Learn </p>
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 p-3">
+                <div class="card p-3 text-center shadow">
+                    <img class="w-100 img-fluid" src="images/wd-13.jpeg" alt="">
+                    <p>Rest API Development</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 p-3">
+                <div class="card p-3 text-center shadow">
+                    <img class="w-100 img-fluid" src="images/wd-13.jpeg" 3lt="">
+                    <p>Rest API Development</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 p-3">
+                <div class="card p-3 text-center shadow">
+                    <img class="w-100 img-fluid" src="images/wd-13.jpeg" 3lt="">
+                    <p>Rest API Development</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 p-3">
+                <div class="card p-3 text-center shadow">
+                    <img class="w-100 img-fluid" src="images/wd-13.jpeg" 3lt="">
+                    <p>Rest API Development</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 p-3">
+                <div class="card p-3 text-center shadow">
+                    <img class="w-100 img-fluid" src="images/wd-13.jpeg" 3lt="">
+                    <p>Rest API Development</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 p-3">
+                <div class="card p-3 text-center shadow">
+                    <img class="w-100 img-fluid" src="images/wd-13.jpeg" 3lt="">
+                    <p>Rest API Development</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 p-3">
+                <div class="card p-3 text-center shadow">
+                    <img class="w-100 img-fluid" src="images/wd-13.jpeg" 3lt="">
+                    <p>Rest API Development</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 p-3">
+                <div class="card p-3 text-center shadow">
+                    <img class="w-100 img-fluid" src="images/wd-13.jpeg" 3lt="">
+                    <p>Rest API Development</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 p-3">
+                <div class="card p-3 text-center shadow">
+                    <img class="w-100 img-fluid" src="images/wd-13.jpeg" 3lt="">
+                    <p>Rest API Development</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 p-3">
+                <div class="card p-3 text-center shadow">
+                    <img class="w-100 img-fluid" src="images/wd-13.jpeg" 3lt="">
+                    <p>Rest API Development</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Section -->
+    <div class="container-fluid bg-white shadow">
+        <div class="row p-5">
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <h6>Follow Me</h6>
+                <a href="#">Facebook</a> <br>
+                <a href="#">Youtube</a> <br>
+                <a href="#">Linkdin</a> <br>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <h6>Address</h6>
+                <address>Mirpur, Dhaka</address>
+                <p>xxxxxxxxx</p>
+                <p>xxxxxxxxx</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <h6>Information</h6>
+                <a href="#">About Me</a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <h6>Legal</h6>
+                <a href="#">Refund Policy</a>
+                <a href="#">Terms and Condition</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="bootstrap.bundle.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
